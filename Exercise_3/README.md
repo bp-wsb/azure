@@ -71,7 +71,8 @@ Your task will be to write load tests for the rss application.
 ### Requirements
 * Write all supported HTTP requests your application.
 * Measure the throughput, deviation, latency and sample time.
-* Measure how many users your application can handle without scaling. (
+* Measure how many users your application can handle without scaling.
+* Create JMeter report with your analysis.
 
 ### Hints
 * You will need add other type of listener to calculate latency.
