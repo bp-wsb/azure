@@ -3,7 +3,7 @@ In this exercise, you will learn how to create a simple performance test based o
 JMeter is open-source application designed to load test, functional behaviour and measure performance.
 
 ## Exercise
-In this exercise, you will test google calendar. This tutorial is from
+Perform a simple load test google calendar. This tutorial is from
 https://www.guru99.com/jmeter-performance-testing.html
 
 ### Steps
@@ -79,4 +79,4 @@ Your task will be to write load tests for the rss application.
 * The maximum server load can be determined by response times and response errors.
 * Measuring maximum server load is tricky. If you can't estimate it, describe in the report why and how it should be done.
 
-Create JMeter report and analyse of this report in separate MD file. Add it in repo of your application in newly created folder docs.
+Create a JMeter report and analysis of this report in a separate MD file. Link JMeter report with analyze the file and add it in the repo of your application in newly created folder docs.
