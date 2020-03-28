@@ -6,11 +6,11 @@ Create two virtual machines with JMeter image and run test plan created in exerc
 
 ### Steps
 1. Login in to Azure portal, click on Create Resource and type in search bar jmeter. You should be able to find 
-Load Tester (standalone) Powered by Apache JMeter™.
+**Load Tester (standalone) Powered by Apache JMeter™**.
 
 ![Alt text](JMeter.png?raw=true "Create JMeter VM")
 
-2. Click on Start with a pre-set configuration. And choose below configuration:
+2. Click on **Start with a pre-set configuration**. And choose below configuration:
 
 ![Alt text](Preset.png?raw=true "Preset")
 
@@ -18,15 +18,15 @@ Load Tester (standalone) Powered by Apache JMeter™.
 
 ![Alt text](VmOptions.png?raw=true "VmOptions")
 
-and click Create+Review
+and click **Create+Review**
 
-If you don't know how to generate ssh-key use google!
+**If you don't know how to generate ssh-key use google!**
 
 4. Create another VM using the same settings but instead of creating another network use network settings from first VM like so:
 
 ![Alt text](NetworkConfig.png?raw=true "NetworkConfig")
 
-and click Create+Review
+and click **Create+Review**
 
 5. Allow to communicate with Virtual Machine using port 1099. Add network rule as below:
 
@@ -34,7 +34,7 @@ and click Create+Review
 
 in newly created Virtual Machines with JMeter
 
-6. Open terminal and login in to one newly created VM's like so:
+6. Open terminal and login in to one newly created VM like so:
 
 ```console
 ssh vm_user@vm_ip
@@ -84,7 +84,7 @@ Of course, you can directly copy this file into the second VM but you need to ge
 where:
 * testplan - test plan name it should have extension .jmx eg. testplan.jmx.
 * report_dir - the path where to store JMeter report eg. ~/report.
-               Warning: folder should be created before the test and should be empty.
+               **Warning:** folder should be created before the test and should be empty.
 * vm_ip2 - ip of the second virtual machine where jmeter-server is running.
 
 13. After the test ends in report_dir you should have the whole report.
