@@ -42,7 +42,7 @@ In HTTP Request Control Panel, the Path field indicates which URL request you wa
 If you keep the Path field blank JMeter will create the URL request http://www.google.com to Google server. 
 In this test enter calendar in Path field. JMeter JMeter will create the URL request http://www.google.com/calendar
 
-7. Select and right click on Thread Group. Select Add -> Listener -> Graph Results
+7. Select and right click on Test Plan. Select Add -> Listener -> Graph Results
 
 ![Alt text](AddGrapgResultJMeter.png "Add Graph Results")
 
