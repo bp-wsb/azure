@@ -12,17 +12,21 @@ Deploy your application and create rules to scale it.
 
 Now you have possibility to scale horizontal your app.
 
-3. Go to **Scale Out** and choose **Custom autoscale**:
+3. Go to **Scale Out** and choose **Custom autoscale**.
+
+4. Create two conditions: 
 
 ![Alt text](autoscale.png?raw=true "Autoscale")
 
-4. Setup **Auto created scale condition** like on the screen
+5. The first condition will increase number of server instance by 1 when CPU load will be >= 70%
 
 ![Alt text](criterium_1.png?raw=true "Criterium1")
 
-5. Create another condition clicking on **Add scale condition** and set up as below:
+6. The second condition will decrease the number of server instance by 1 when CPU load will be <= 30%.
 
 ![Alt text](criterium_2.png?raw=true "Criterium2")
 
-6. Prepare load tests environment as in exercise 4.
-7. Run load tests and check if scaling works properly by comparing measurements fro previous lessons.
+This will prevent paying for servers that are not needed anymore.
+
+7. Prepare load tests environment as in exercise 4.
+8. Run load tests and check if scaling works properly by comparing measurements fro previous lessons.
